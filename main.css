@@ -1,0 +1,194 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+.bg-yellow {
+
+  background-color: goldenrod;
+}
+
+.bg-gray {
+
+  background-color:gray;
+}
+
+#margin1 {
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-rows: 1fr 3fr 0.5fr 0.5fr 0.5fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Area1 Area2 Area3"
+    "Area4 Area5 Area6"
+    "Area7 Area8 Area9"
+    "Area10 Area11 Area12"
+    "Area13 area14 Area15"
+    "Area16 Area17 Area18";
+}
+
+.Area1 { grid-area: Area1; }
+
+.Area2 { grid-area: Area2; }
+
+.Area3 { grid-area: Area3; }
+
+.Area4 { grid-area: Area4; }
+
+.Area5 { grid-area: Area5; }
+
+.Area6 { grid-area: Area6; }
+
+.Area7 { grid-area: Area7; }
+
+.Area8 { grid-area: Area8; }
+
+.Area9 { grid-area: Area9; }
+
+.Area10 { grid-area: Area10; }
+
+.Area11 { grid-area: Area11; }
+
+.Area12 { grid-area: Area12; }
+
+.Area13 { grid-area: Area13; }
+
+.Area15 { grid-area: Area15; }
+
+.Area16 { grid-area: Area16; }
+
+.Area17 { grid-area: Area17; }
+
+.Area18 { grid-area: Area18; }
+
+.area14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Area19 Area20 Area21";
+  grid-area: area14;
+}
+
+.Area19 { grid-area: Area19; }
+
+.Area20 { grid-area: Area20; }
+
+.Area21 { grid-area: Area21; }
+
+.border {border-style: solid;
+  border-radius: 8px;
+  color: lightgray;}
+
+.button {
+
+  background-image: linear-gradient(rgb(255, 251, 0), rgb(231, 209, 8));
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px px;
+  border-radius: 4px;
+  position: right;
+}
+
+.buttontwo {
+
+  background-image: linear-gradient(rgb(197, 197, 192), rgb(104, 104, 103));
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px px;
+  border-radius: 4px;
+  position: center;
+}
+
+.button:hover {
+background-image:linear-gradient(rgb(255, 251, 0), rgb(110, 100, 3));
+background-color:linear-gradient(rgb(255, 251, 0), rgb(110, 100, 3));
+}
+
+.buttontwo:hover {
+  background-image:linear-gradient(rgb(197, 197, 192), rgb(43, 43, 42));
+  background-color:linear-gradient(rgb(197, 197, 192), rgb(49, 49, 49));
+  }
+
+.line {
+  border-top: 3px solid rgba(5, 3, 3, 0.568);
+}
+
+h2 {
+  font: 22px arial;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  z-index: 1;
+}
+
+ h6 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(143, 143, 143); 
+    line-height: 0.1em;
+    color: rgb(134, 134, 134);
+    margin: 10px 0 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+ 
+ h6 span { 
+     background:#fff; 
+     padding:0 10px; 
+    
+ }
+
+h1 {
+  font: 28px arial;
+  padding: 5%;
+  color: black;
+  margin-bottom: 0%;
+}
+
+h3 {font: 13px arial;
+    color: black;
+    margin: 0
+
+  }
+
+h4 {font: 11px arial;
+text-align-last: center;}
+
+h5 {font: 11px arial;
+  text-align-last: right;
+margin: 0%;}
+
+.div1 {
+  width: 320px;
+  padding: 10px;
+  border: 0px;
+  margin: 0;
+  
+}
+
+hr {
+  width: 111%;
+}
+ 
